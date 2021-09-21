@@ -1,6 +1,6 @@
 # CRUD_PHP-MYSQL
 
-<p>Basic CRUD operations</p>
+<p>Basic CRUD operations:</p>
 <ul>
   <li>Create</li>
   <li>Insert</li>
