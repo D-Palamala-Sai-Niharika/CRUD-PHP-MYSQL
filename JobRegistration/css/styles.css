@@ -1,0 +1,92 @@
+/*
+===============
+css variables
+===============
+*/
+:root{
+  --col-primary-1:#1e3d59;
+  --col-secondary-1:#f5f0e1;
+  --ff:'Tajawal', sans-serif;
+}
+/*
+===============
+global styles
+===============
+*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: var(--col-secondary-1);
+}
+h2,h4{
+  color:var(--col-primary-1);
+}
+/*
+===============
+index page - form
+===============
+*/
+.registration-form{
+  background-color: var(--col-primary-1);
+  color: var(--col-secondary-1);
+  margin-top:4.688rem;
+}
+/*-------------------------------register-left-----------------------------*/
+.check-form{
+  background-color: var(--col-secondary-1);
+  border-radius: 8px;
+  color:var(--col-primary-1);
+}
+.check-form:hover{
+  background-color: var(--col-primary-1);
+  color:var(--col-secondary-1);
+  border:2px solid var(--col-secondary-1);
+}
+/*------------------------------register-right-----------------------------*/
+.register-right{
+  background-color: var(--col-secondary-1);
+  color:var(--col-primary-1);
+  border-radius:100px 8px 8px 100px;
+}
+.input-info{
+  width: 100%;
+}
+.submit-form-btn{
+  background-color: var(--col-primary-1);
+  color:var(--col-secondary-1);
+  border-radius: 8px;
+  border:none;
+}
+.submit-form-btn:hover{
+  background-color: var(--col-secondary-1);
+  color:var(--col-primary-1);
+  border:2px solid var(--col-primary-1);
+}
+/*--------------------------media queries-------------------------------------*/
+@media (max-width:768px){
+  .register-right{
+    border-radius:8px;
+  }
+  .registration-form{
+    margin-top:0;
+  }
+}
+@media (min-width:769px) and (max-width:1400px){
+  h3{
+    font-size: 18px;
+  }
+  p{
+    font-size:14px;
+  }
+  .image{
+    width:100%;
+    height: auto;
+    padding-right:24px;
+  }
+}
